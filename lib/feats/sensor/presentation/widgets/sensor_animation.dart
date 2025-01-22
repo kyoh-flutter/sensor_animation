@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sensor_animation/feats/sensor/presentation/provider/sensor_provider.dart';
+import 'package:sensor_animation/feats/sensor/presentation/providers/sensor_provider.dart';
 
 class Layer {
   Layer({

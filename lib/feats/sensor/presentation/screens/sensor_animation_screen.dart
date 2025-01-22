@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sensor_animation/feats/sensor/presentation/provider/sensor_provider.dart';
+import 'package:sensor_animation/feats/sensor/presentation/providers/sensor_provider.dart';
 import 'package:sensor_animation/feats/sensor/presentation/widgets/sensor_animation.dart';
 
 class SensorAnimationScreen extends StatelessWidget {

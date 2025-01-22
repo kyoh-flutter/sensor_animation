@@ -1,9 +1,11 @@
 import 'package:go_router/go_router.dart';
 import 'package:sensor_animation/feats/home/presentation/screens/home_screen.dart';
+import 'package:sensor_animation/feats/parallex/presentation/screens/parallax_screen.dart';
 import 'package:sensor_animation/feats/sensor/presentation/screens/sensor_animation_screen.dart';
 
 enum Paths {
   home,
+  parallex,
   sensor;
 
   String get relativePath {
@@ -12,6 +14,8 @@ enum Paths {
         return '/';
       case Paths.sensor:
         return 'sensor';
+      case Paths.parallex:
+        return 'parallex';
     }
   }
 }
@@ -28,6 +32,11 @@ final GoRouter router = GoRouter(
           path: Paths.sensor.relativePath,
           name: Paths.sensor.name,
           builder: (context, state) => const SensorAnimationScreen(),
+        ),
+        GoRoute(
+          path: Paths.parallex.relativePath,
+          name: Paths.parallex.name,
+          builder: (context, state) => const ParallaxScreen(),
         ),
       ],
     ),

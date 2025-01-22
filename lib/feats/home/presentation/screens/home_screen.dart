@@ -4,6 +4,7 @@ import 'package:sensor_animation/core/router.dart';
 
 final List<Paths> _paths = [
   Paths.sensor,
+  Paths.parallex,
 ];
 
 class HomeScreen extends StatelessWidget {
