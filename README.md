@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+## preview
+| sensor | parallax |
+| -- | -- |
+| [sensor](assets/video/sensor.mp4) | [parallax](assets/video/parallax.mp4) |
+
 
 ## flutter doctor -v
 ```cmd
